@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #ffffff;
+        }
+
+        input[type="file"] {
+            border: 2px solid #4A5568; /* Use a neutral gray border */
+            background-color: #2d2d2d;
+            color: #ffffff;
+            padding: 8px;
+            border-radius: 8px;
+            width: 100%;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #38a169;
+            padding: 12px;
+            border-radius: 8px;
+            color: #ffffff;
+            width: 100%;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #48bb78;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 flex items-center justify-center h-screen">
+    <div class="container">
+        <div class="card">
+            <h3 class="text-3xl mb-6 text-center">Your Profile Picture</h3>
+            <form autocomplete="off" action="/upload" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" accept="image/*, .pdf, .docx, .xlsx">
+                <input type="submit" value="Upload File">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
