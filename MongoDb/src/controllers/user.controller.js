@@ -487,3 +487,22 @@ export {
 /*
 Videosm -> owner -> users
 */
+
+/*
+likes
+id           string pk
+comment      objectId comments
+createdAt    Date
+video        objectId videos
+updatedAt    Date
+likedBy      objectId users
+tweet        objectId tweets
+
+tweet
+id          string pk
+owner       objectId users
+content     string
+createdAt   Date
+updatedAt   Date
+
+*/

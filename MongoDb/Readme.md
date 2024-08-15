@@ -1225,6 +1225,12 @@ This video serves as a recap of the entire backend development series, providing
 
 This video marks the conclusion of the backend development series, providing a final wrap-up and reflecting on the journey through backend development.
 
+# MongoDB Models for Playlist and Tweet
+
+[![MongoDB Models](https://img.youtube.com/vi/-5yWyE4AiVk/0.jpg)](https://youtu.be/-5yWyE4AiVk?si=kFZSjeP1htL6hmlv)
+
+In this video, I will learn about MongoDB models for implementing playlist and tweet functionalities.
+
 
 * *File Struncture*
 
