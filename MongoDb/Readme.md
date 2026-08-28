@@ -1234,9 +1234,21 @@ In this video, I will learn about MongoDB models for implementing playlist and t
 
 * *File Struncture*
 
+# **[Chai aur Book Reading](https://www.youtube.com/live/mSeGdryJdcc?si=iAr5FtVDXzkup4-t)**  
+[![Chai aur Book Reading](https://img.youtube.com/vi/mSeGdryJdcc/0.jpg)](https://www.youtube.com/live/mSeGdryJdcc?si=iAr5FtVDXzkup4-t)
+
+## 📚 Topics Covered
+
+- What is Data and Why is it Important  
+- Frontend and Backend  
+- OLTP And OLAP  
+- Data Warehouse and Data Lake  
+- Cloud vs Self-Hosting  
+- Distributed Systems  
+- Data, Law and Society
+
 *As you might see i usually write a lot of comments in my code files which might make it look confusing to analise the code view but i prefer this way of wring cause it makes easier for me to understand the code while reading incase i forgot*
 
 *so yeah, actually i make my notes on the go*
-
 
 Thank you for reading!!
